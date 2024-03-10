@@ -44,6 +44,6 @@ void Circle::setArea(double area) {
         throw std::invalid_argument("Area cannot be negative or zero");
     }
     this->area = area;
-    this->radius = area / std::sqrt(area/M_PI);
+    this->radius = std::sqrt(area/M_PI);
     this->ference = 2 * M_PI * this->radius;
 }

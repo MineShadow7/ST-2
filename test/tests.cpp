@@ -102,7 +102,7 @@ TEST(CircleTests, TestNegativeValueSetFerenceThrowsException) {
     EXPECT_ANY_THROW(circle.setFerence(-1.0));
 }
 TEST(TaskTests, TestTask1) {
-    EXPECT_NEAR(task_1(6371000.0, 1.0), M_PI * 0.5, EPS);
+    EXPECT_NEAR(task_1(6371000.0, 1.0), M_1_PI * 0.5, EPS);
 }
 TEST(TaskTests, TestTask2) {
     EXPECT_NEAR(task_2(3.0, 1.0, 1000.0, 2000.0), 23000.0 * M_PI, EPS);

@@ -6,14 +6,14 @@
 
 double task_1(double planetRadius, double newRadius) {
     Circle rope(planetRadius);
-    rope.setRadius(newRadius);
+    rope.setFerence(rope.getFerence() + newRadius);
     return rope.getRadius() - planetRadius;
 }
 
 double task_2(double poolRadius, double pathWidth, double concretePrice, double fencePrice) {
     Circle pool(poolRadius);
     Circle fence(poolRadius + pathWidth);
-    return (fence.getArea() - pool.getArea()) * concretePrice + (fence.getArea() + fence.getFerence() * fencePrice);
+    return (fence.getArea() - pool.getArea()) * concretePrice + fence.getFerence() * fencePrice;
 }
 
 #endif  // ST_2_SRC_TASKS_CPP_
