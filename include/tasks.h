@@ -1,6 +1,6 @@
 // Copyright Karagodin Andrey 2024.
-#ifndef TASKS_H_
-#define TASKS_H_
+#ifndef INCLUDE_TASKS_H_
+#define INCLUDE_TASKS_H_
 
 #include "../include/circle.h"
 
@@ -10,4 +10,4 @@ double task_2(double poolRadius,
     double concretePrice,
     double fencePrice);
 
-#endif  // TASKS_H_
+#endif  // INCLUDE_TASKS_H_

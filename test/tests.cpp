@@ -1,4 +1,4 @@
-
+// Copyright 2024 Karagodin Andrey
 #include <gtest/gtest.h>
 #include <cstdint>
 #include "../include/circle.h"
