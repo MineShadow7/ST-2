@@ -1,6 +1,6 @@
 // Copyright 2022 UNN-CS
-#ifndef ST_2_INCLUDE_CIRCLE_H_
-#define ST_2_INCLUDE_CIRCLE_H_
+#ifndef CIRCLE_H_
+#define CIRCLE_H_
 #include <math.h>
 #include <cstdint>
 #include <cmath>
@@ -21,4 +21,4 @@ class Circle{
     void setFerence(double ference);
     void setArea(double area);
 };
-#endif  // ST_2_INCLUDE_CIRCLE_H_
+#endif  // CIRCLE_H_
